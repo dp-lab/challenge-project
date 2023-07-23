@@ -1,0 +1,14 @@
+[
+    {
+        "invoiceId": 1,
+        "amount": 100
+    },
+    {
+        "invoiceId": 2,
+        "amount": 200
+    },
+    {
+        "invoiceId": 3,
+        "amount": 300
+    }
+]
