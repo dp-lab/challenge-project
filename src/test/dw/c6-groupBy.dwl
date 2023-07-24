@@ -5,7 +5,8 @@ var groupedAllocations = vars.allocations groupBy $.invoiceId
 payload map ((item, index) -> 
     item ++ 
     allocations: flatten(groupedAllocations pluck ((value, key, index) -> 
-                    if(key ~= item.invoiceId) value map ($ - "invoiceId")
+                    if(key ~= item.invoiceId) 
+                        value map ($ - "invoiceId")
                     else null))
 )
 
