@@ -1,0 +1,21 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "email": "john.doe@example.com",
+  "address": {
+    "street": "",
+    "city": "New York",
+    "state": "NY",
+    "zipcode": "",
+    "coordinates": {
+      "latitude": 40.7128,
+      "longitude": -74.0060
+    }
+  },
+  "education": {
+    "university": "ABC University",
+    "graduation_year": null,
+    "major": "Computer Science",
+    "courses": []
+  }
+}
